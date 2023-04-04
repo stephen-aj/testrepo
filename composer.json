@@ -1,13 +1,21 @@
 {
     "name": "magedevcodenew/mdev",
-    "description": "email domain avoide",
-    "type": "composer-plugin",
-    "license": "1.0.0",
-    "authors": [
-        {
-            "name": "rdev"
-        }
+    "description": "Email Unsubscribe by Amasty",
+    "require": {
+        "php": ">=7.3"
+    },
+    "homepage": "https:\/\/amasty.com\/",
+    "type": "magento2-module",
+    "version": "1.0.1",
+    "license": [
+        "1.0.0"
     ],
-    "minimum-stability": "beta",
-    "require": {}
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Shop\\Emailcheck\\": ""
+        }
+    }
 }
