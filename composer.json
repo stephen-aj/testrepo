@@ -1,0 +1,13 @@
+{
+    "name": "magedevcodenew/mdev",
+    "description": "email domain avoide",
+    "type": "composer-plugin",
+    "license": "1.0.0",
+    "authors": [
+        {
+            "name": "rdev"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {}
+}

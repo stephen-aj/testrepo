@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="emailblock" translate="label" sortOrder="130" showInDefault="1" showInWebsite="1" showInStore="1">
+            <class>separator-top</class>
+            <label>Email Check</label>
+            <tab>shop</tab>
+            <resource>Shop_General::general_config</resource>
+            <group id="domains" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Domain Names</label>
+                
+                <field id="domains" translate="label" type="textarea" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Domain names to block</label>
+                    <comment>Comma separated values eg google.co.uk,mail.ru,some.com</comment>
+                </field>
+                <field id="firstname" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Length of First Name</label>
+                    <comment>Enter the length of first name (maximum allowed characters)</comment>
+                </field>
+                <field id="lastname" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Length of Last Name</label>
+                    <comment>Enter the length of last name (maximum allowed characters)</comment>
+                </field>
+                <field id="message" translate="label" type="textarea" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Message to display</label>
+                    <comment>The error message to show users who try to register with one of the above domain names</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
+
