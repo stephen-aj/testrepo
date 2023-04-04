@@ -1,15 +1,22 @@
 {
-    "name": "magedevcodenew/mdev",
-    "description": "Email Unsubscribe by Amasty",
-    "require": {
-        "php": ">=7.3"
-    },
-    "homepage": "https:\/\/amasty.com\/",
+    "name": "roshan/mdev2",
+    "description": "Add into Magento 2 a CLI feature which allow to regenerate a Url Rewrites of products and categories",
+    "keywords": ["magento", "magento2 extension", "magento 2 extension", "extension", "module", "magento2 module", "magento 2 module"],
     "type": "magento2-module",
-    "version": "1.0.1",
-    "license": [
-        "1.0.0"
+    "version": "1.6.0",
+    "homepage": "https://github.com/stephen-aj/testrepo",
+    "authors": [
+        {
+            "name": "roshan Koval",
+            "email": "contactdd@test.com"
+        }
     ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+    },
     "autoload": {
         "files": [
             "registration.php"
@@ -17,5 +24,7 @@
         "psr-4": {
             "Shop\\Emailcheck\\": ""
         }
-    }
+    },
+    "minimum-stability": "alpha",
+    "prefer-stable": true
 }
