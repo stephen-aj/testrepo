@@ -25,6 +25,6 @@
             "Shop\\Emailcheck\\": ""
         }
     },
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     "prefer-stable": true
 }
